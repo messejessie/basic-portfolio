@@ -1,0 +1,51 @@
+body{
+    background: gray
+}
+
+.name{
+    Height: 50px;
+    text-align: center;
+    color: white;
+    width: 200px;
+    background-color: #4CAF50;
+    position: static;
+}
+
+.contact{
+    Height: 50px;
+    text-align: center;
+    color: white;
+    width: 200px;
+    float: Right;
+}
+
+.about{
+    Height: 50px;
+    text-align: center;
+    color: white;
+    width: 200px;
+    float: Right;
+}
+
+.portfolio{
+    Height: 50px;
+    text-align: center;
+    color: white;
+    width: 200px;
+    float: Right;
+}
+
+section{
+    Height: 279px;
+    color: gray;
+    border: lightgray;
+    padding: 0px;
+    width: auto;
+    background-color: white;
+    float: left;
+}
+
+.image{
+    float: left;
+}
+
