@@ -80,10 +80,11 @@ section{
 }
 
 .container {
-    padding-right: 154px;
+    padding-right: 198px;
     padding-left: 30px;
     padding-bottom: 0px;
     padding-top: 30px;
+    margin-top: 112px;
     margin-right: auto;
     margin-left: auto;
     box-sizing: border-box;
