@@ -1,10 +1,11 @@
 body {
-    style:"background-image:url(diagonal-squares.png)"
+    style:"background-image:url(full-bloom.png)"
     }
 
 header{
-    height:300px;
-    width:auto 
+    height: 80px;
+    background:white;
+    width: auto;
 }
 
 .about-you{
@@ -12,35 +13,38 @@ header{
 }
 
 .name{
-    Height: 39px;
+    Height: 49px;
     text-align: center;
     color: white;
-    width: 200px;
-    background-color: green;
-    position: fixed;
+    width: 231px;
+    margin-top: 31px;
+    margin-left: 116px;
+    background-color: gray;
+    position: absolute;
 }
+
 
 .contact{
     Height: 60px;
     text-align: center;
     color: white;
-    width: 200px;
+    width: 0px;
     float: Right;
 }
 
 .about{
-    Height: 64px;
+    Height: 45px;
     text-align: center;
     color: white;
-    width: 200px;
+    width: 179px;
     float: Right;
 }
 
 .portfolio{
-    Height: 50px;
+    Height: 53px;
     text-align: center;
     color: white;
-    width: 200px;
+    width: 93px;
     float: Right;
 }
 
@@ -84,7 +88,7 @@ section{
     padding-left: 30px;
     padding-bottom: 0px;
     padding-top: 30px;
-    margin-top: 112px;
+    margin-top: 45px;
     margin-right: auto;
     margin-left: auto;
     box-sizing: border-box;
