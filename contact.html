@@ -9,22 +9,39 @@
     <link rel="stylesheet" href="portfolio.html">
     <title>Contact</title>
 </head>
-<body>
-        <h1>Jessie Duncan</h1>
-        <h4><a href="index.html">About</a></h4>
-        <h4><a href="contact.html">Contact</a></h4>
-        <h4><a href="portfolio.html">Portfolio</a></h4>
-    <h1>Leave A Message</h1>
-    <form>
-        Name:<br>
-        <input type="text" name="firstnamelastname">
-        <br>
-        Email:<br>
-        <input type ="text" name="email">
-        <br>
-        Message:<br>
-        <input type ="text" name="message">    
-        <br>
-    </form>
-</body>
-</html>
+<body style="background-image:url(assets/images/diagonal-squares/diagonal-squares.png)">
+    <div>
+        <h1 class="name">Jessie Duncan</h1>
+        <h4 class= "about"><a href="index.html">About</a></h4>
+        <h4 class= "contact"><a href="contact.html">Contact</a></h4>
+        <h4 class= "portfolio"><a href="portfolio.html">Portfolio</a></h4>
+</div>
+<div class="container">
+<!--form started-->
+<form id="reuseable form">
+    <div>
+        <h1>Contact</h1>
+    </div>
+    <div class="form-group">
+        <label>
+            Name
+        </label>
+    <input type="text" name="name" class="form-control" placeholder="Enter Name">
+    </div>
+    <div class="form-group">
+        <label>
+            Email
+        </label>
+        <input type="email" name="email" class="form-control" placeholder="Enter Email">
+    </div>
+    <div class="form-group">
+        <label>
+            Message
+        </label>
+            <textarea rows="700" name="message" class="form-control" placeholder="Leave a Note..." style="margin: 0px -138.2px 0px 0px; width: 648px; height: 234px;"></textarea>    </div>
+    <div class="form-group" >
+        <button class= button>
+            Send
+        </button>
+    </div>
+</form>
