@@ -21,30 +21,25 @@ header{
     margin-left: 116px;
     background-color: gray;
     position: absolute;
+   
 }
 
 
 .contact{
-    Height: 60px;
     text-align: center;
     color: white;
-    width: 0px;
     float: Right;
 }
 
 .about{
-    Height: 45px;
     text-align: center;
     color: white;
-    width: 179px;
     float: Right;
 }
 
 .portfolio{
-    Height: 53px;
     text-align: center;
     color: white;
-    width: 93px;
     float: Right;
 }
 
@@ -99,5 +94,12 @@ section{
 
 .form-group {
     margin-bottom: 15px;
+}
+
+#navi{
+    background: yellow;
+    float: right;
+    height: 200px;
+    width: 200px;
 }
 
