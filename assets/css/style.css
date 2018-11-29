@@ -44,7 +44,7 @@ h4{
     width: 83px;
 }
 
-section{
+.main{
     Height: 279px;
     color: gray;
     border: lightgray;
@@ -116,13 +116,48 @@ footer{
 
 .port{
     margin-bottom: 100px;
-    padding-right: 632px;
-    padding-left: 58px;
-    padding-bottom: 6px;
+    padding-right: 656px;
+    padding-left: 61px;
+    padding-bottom: 708px;
     padding-top: 30px;
     margin-top: 45px;
-    margin-right: 193px;
+    margin-right: 187px;
     margin-left: 150px;
     box-sizing: border-box;
     background: white;
+}
+
+.box-one{
+    Height: 20px;
+    color: gray;
+    border: lightgray;
+    padding-top: 21px;
+    padding-right: 74px;
+    padding-bottom: 7px;
+    padding-left: 51px;
+    margin-top: 59px;
+    margin-right: 70px;
+    margin-bottom: 31px;
+    margin-left: 64px;
+    width: fit-content;
+    background-color: yellow;
+    float: left;
+}
+
+.box-two{
+
+    Height: 20px;
+    color: gray;
+    border: lightgray;
+    padding-top: 21px;
+    padding-right: 74px;
+    padding-bottom: 7px;
+    padding-left: 51px;
+    margin-top: 59px;
+    margin-right: 70px;
+    margin-bottom: 31px;
+    margin-left: 64px;
+    width: fit-content;
+    background-color: yellow;
+    float: right;
 }
