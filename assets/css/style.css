@@ -80,17 +80,18 @@ section{
 }
 
 .container {
-    padding-right: 595px;
-    padding-left: 153px;
+    margin-bottom: 100px;
+    padding-right: 632px;
+    padding-left: 58px;
     padding-bottom: 6px;
     padding-top: 30px;
     margin-top: 45px;
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: 193px;
+    margin-left: 150px;
     box-sizing: border-box;
     background: white;
-    
 }
+
 
 .form-group {
     margin-bottom: 15px;
@@ -111,4 +112,17 @@ footer{
         background-color: white;
         color: gray;
         text-align: center;
+}
+
+.port{
+    margin-bottom: 100px;
+    padding-right: 632px;
+    padding-left: 58px;
+    padding-bottom: 6px;
+    padding-top: 30px;
+    margin-top: 45px;
+    margin-right: 193px;
+    margin-left: 150px;
+    box-sizing: border-box;
+    background: white;
 }
