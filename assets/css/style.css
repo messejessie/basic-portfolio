@@ -1,11 +1,13 @@
 body {
-    style:"background-image:url(full-bloom.png)"
+    style:"background-image:url(full-bloom.png)";
+    font-family: 'Georgia', Times, Times New Roman, serif;
     }
 
 header{
     height: 80px;
     background:white;
     width: auto;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 .about-you{
@@ -15,6 +17,7 @@ header{
 .name{
     Height: 49px;
     text-align: center;
+    font-size: 24px;
     color: white;
     width: 231px;
     margin-top: 31px;
@@ -116,13 +119,54 @@ footer{
 
 .port{
     margin-bottom: 100px;
-    padding-right: 656px;
-    padding-left: 61px;
-    padding-bottom: 708px;
+    padding-right: 663px;
+    padding-left: 59px;
+    padding-bottom: 917px;
     padding-top: 30px;
     margin-top: 45px;
     margin-right: 187px;
     margin-left: 150px;
     box-sizing: border-box;
     background: white;
+}
+
+.boxset{
+    position: relative;
+}
+
+.boxone{
+    position: relative;
+    float:left;
+    padding-top:5px;
+}
+
+.boxtwo{
+
+float:right;
+padding-top:5px;
+}
+
+.boxthree{
+
+    position: relative;
+    float: left;
+    padding-top:5px
+}
+
+.boxfour{
+    position: relative;
+    float: right;
+    padding-top:5px;
+}
+.boxfive{
+    position: relative;
+    float:left;
+    padding-top:5px
+}
+    
+.kittenfive{
+    background: yellow;
+    top: 100px;
+    left: 130px;
+    z-index: 2;
 }
